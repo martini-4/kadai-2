@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color: #333;
+}
+a:hover{
+	color: #fff;
+	background-color: black;
+}
+
+/*index*/
+.index-body{
+	margin: 8px;
+	color: #333;
+}
+.index-title{
+	margin: 21px 0;
+}
+.naiyou p{
+	margin: 33px;
+}
+.index-tex{
+	color:  #333;
+}
+a{
+	color: #333;
+}
+strong{
+	margin: 0;
+	font-weight: bold;
+}
+
+
+
+/*new*/
+
+.new{
+	margin: 33px;
+}
+
+header{
+	font-size: 12px;
+	display: inline-block;
+	font-weight: bold;
+	font-family: verdana, arial, helvetica, sans-serif;
+	margin: 17px 0;
+}
+.new-main{
+	margin: 0;
+	width: 100%;
+}
+.new-text{
+	color: #333;
+}
+.title3{
+	margin: 17px 0;
+}
+/*show*/
+.successfully{
+	color: green;
+}
+.show-main{
+	margin: 33px;
+}
+.mokuzi1{
+	margin: 0 0 33px 0;
+}
+.show-mokuzi{
+	margin: 33px;
+	font-size: 13px;
+}
+.mokuzi{
+	font-weight: bold;
+}
+.link{
+	font-family: verdana, arial, helvetica, sans-serif;
+	float: left;
+	margin: 0;
+}
+
+
+
+/*edit*/
+.edit{
+	margin: 33px;
+	}
+.edit-main{
+	margin: 0;
+}
+.edit-main h1{
+	font-size: 23px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+
+
+
+
