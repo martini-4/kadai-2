@@ -5,12 +5,12 @@ class BooksController < ApplicationController
   end
 
   def index
-  
+  @books = Book.all
+    @book = Book.new
   end
 
   def new
-	  @books = Book.all
-  	@book = Book.new
+	  
   end
 
   def create
@@ -37,7 +37,7 @@ class BooksController < ApplicationController
       book = Book.find(params[:id])
       if book.destroy
         flash[:successfully_destroy] ="Book was successfully destroy."
-      redirect_to new_book_path
+      redirect_to '/books'
     end
   end
 
